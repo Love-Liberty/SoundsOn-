@@ -27,6 +27,8 @@ You need to choose sound effect and how to organise these on the SD memory card.
 
 The DFPlayerMini_fast software auto outputs things to the serial monitor which are not well explained. It reports communications between the Arduino & the DFPlayer.
 
+Should I use the original https://github.com/DFRobot/DFRobotDFPlayerMini ?
+
 Oddly I found that the folder titled "mp3" containing a track numbered 0001.mp3 will not be played by asking for track 1. It will be played by asking to play track 0.
 
 SoundOn! will probably be using the individual folders on the SD card and not the "mp3" or "advertising" folders, but not currently sure.
