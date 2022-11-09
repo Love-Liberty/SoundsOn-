@@ -1,4 +1,4 @@
-# SoundOn!
+# SoundsOn!
 
 SoundOn! is a software and hardware project combining two exsiting sketches plus electronic hardware.
 
@@ -6,11 +6,11 @@ There is a model control system called Digital Command Control ("DCC") which sen
 
 An expensive extra is that the locomotives have a chip and speaker fitted internally to produce machine sounds and sounds like whistles, horns or bells.
 
-SoundOn! is a project to imitate this in a lower quality and much cheaper way.
+SoundsOn! is a project to imitate this in a lower quality and much cheaper way.
 
 The DCC sniffer library picks up the signals from the rails.
 
-SoundOn! then decodes those signals and decides what sounds are to be played by the DFPlayer MP3 chip.
+SoundsOn! then decodes those signals and decides what sounds are to be played by the DFPlayer MP3 chip.
 
 This is then played through an amplifier in stereo in the region of the models rather than coming from within the individual models.
 
