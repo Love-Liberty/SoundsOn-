@@ -1,4 +1,4 @@
-# SoundOn
+# SoundOn!
 
 SoundOn! is a software and hardware project combining two exsiting sketches plus electronic hardware.
 
