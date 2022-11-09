@@ -121,6 +121,13 @@ Pin_map_desc_en
 Example Wiring Diagram:
 550px-PlayerMini
 
+DFPlayer hardware manual with hex codes
+
+https://github.com/DFRobot/DFRobotDFPlayerMini/blob/master/doc/FN-M16P%2BEmbedded%2BMP3%2BAudio%2BModule%2BDatasheet.pdf
+
+
+----------------------
+
 > See the documentation for DFPlayerMini_fast<
 
 For more info: https://www.dfrobot.com/wiki/index.php/DFPlayer_Mini_SKU:DFR0299
