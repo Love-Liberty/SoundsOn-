@@ -8,7 +8,7 @@ An expensive extra is that the locomotives have a chip and speaker fitted intern
 
 SoundsOn! is a project to imitate this in a lower quality and much cheaper way.
 
-The DCC sniffer library picks up the signals from the rails.
+The DCC sniffer sketch picks up the signals from the rails.
 
 SoundsOn! then decodes those signals and decides what sounds are to be played by the DFPlayer MP3 chip.
 
@@ -29,7 +29,7 @@ The DFPlayerMini_fast software auto outputs things to the serial monitor which a
 
 Should I use the original https://github.com/DFRobot/DFRobotDFPlayerMini ?
 
-Oddly I found that the folder titled "mp3" containing a track numbered 0001.mp3 will not be played by asking for track 1. It will be played by asking to play track 0.
+Oddly I found that the folder titled "mp3" containing a track numbered 0001.mp3 will not be played by asking for track 1. It will be played by asking to play track 0. This odd behaviour seems to have stopped
 
 SoundOn! will probably be using the individual folders on the SD card and not the "mp3" or "advertising" folders, but not currently sure.
 
@@ -37,17 +37,17 @@ If you use the playFromMP3Folder() or playAdvertisement() functions, the files t
 
 The "MP3 Folder" must be in the root of the storage device (such as a MicroSD card)
 
-It must be called "mp3" (without the quote marks). The folder name is probably not case-sensitive.
+It must be called "mp3" (without the quote marks).
 
 If you want a folder used for short interruptions to main audio playback it must also be in the root of the storage device it must be called "advert".
 
-In the mp3 folder the audio files are named like this 0001.mp3 0002.mp3 but can have names after the numbers.
+In the mp3 folder the audio files are named like this 0001.mp3 0002.mp3 but can have names after the numbers.  0001clang.mp3
 
 Other folders are named just with digits 01 to 99 (no names, as far as I know)
 
 audio files within those folders are 001 - 999 (no names, as far as I know)
 
-Currently (Nov 9 2022) using the DFPlayerMini_fast Library, but not sure this is any better than the original rbot version.
+Currently (Nov 9 2022) using the DFPlayerMini_fast Library, but not sure this is any better than the original robot version.
 
 API:
 Note: when using these you have to append the name of the player that is declared at the beginning of the sketch. (See example)
