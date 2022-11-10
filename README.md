@@ -144,12 +144,17 @@ DCC packet analyze: by Ruud Boer, October 2015
 Version 2.0: Jürgen Winkler, March 2016
 
 ------------------------------------
+
 I have added some indicator LEDs to the sniffer sketch such that a press on the DCC controller is detected and the LED activated.
 A limitation of the hardware circuit board is that only a few of the Arduino pins are accessible. So can only use pins 3,4,5,6 and A4 A5
 SoundsOn! uses pins A4 A5 for serial communication with the MP3 player. 3,4,5,6 may be used either as inputs or indicator lights. Not yet decided
+
 --------------------
 
-Nov 10 2022 Separately have working 
+-----------
+Nov 10 2022
+-----------
+Separately have working 
 DCC sniffer software which gives output LED when buttons pressed
 MP3 playing from folders on SD card. (Testing with music)
 
