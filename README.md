@@ -131,3 +131,18 @@ https://github.com/DFRobot/DFRobotDFPlayerMini/blob/master/doc/FN-M16P%2BEmbedde
 > See the documentation for DFPlayerMini_fast<
 
 For more info: https://www.dfrobot.com/wiki/index.php/DFPlayer_Mini_SKU:DFR0299
+
+-----------------------
+
+The DCC part of the project is based on
+
+https://github.com/cbries/modeling/blob/master/Arduino%20DCC/Arduino_DCC_S88/RB_DCC_Sniffer_v2/RB_DCC_Sniffer_v2.ino
+
+Sources: 
+DCC packet capture: Robin McKay, March 2014
+DCC packet analyze: by Ruud Boer, October 2015
+Version 2.0: Jürgen Winkler, March 2016
+
+------------------------------------
+// 
+
